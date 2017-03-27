@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	h3 {
+	background-color:#3f4f64;
+	color:white;
+	width:120px;
+	text-align:center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	cursor: pointer;
+	}
+
+	#output {
+		width:300px;
+		height:90px;
+	}
+
+	input {
+		width: 500px;
+	}
+
+	#wrapper {
+		padding-left: 15px;
+	}
+
+	p, h2, h3 {
+		font-family:GothamNarrow-Bold, arial;
+	}
+</style>
+</head>
+
+<body>
+	<h2>Full-width teaser generator</h2>
+	<form>
+	<p>Image URL:</p>
+	<input type="text" id="img-URL" value="Insert image URL"><br>
+	<p>Page you're linking to</p>
+	<input type="text" id="page-URL" value="Insert page URL"><br>
+
+
+	<h3 id="submit">Submit</h3><br>
+
+	<p>Copy and paste this into HTML box:</p>
+	<textarea id="output" type="text" value=""></textarea>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="script.js"></script>
+</body>
+</html>
